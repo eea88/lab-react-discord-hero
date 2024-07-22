@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0;
+  text-align: left;
+  background-color: #0F33F3;
+
+}
+
+.headings-container{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 90vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+  
+}
+.headings{
+  font-family: 'Poppins', sans-serif;
+font-size: 2em;
+color: white;
+display: flex;
+align-items: flex-start;
+padding: 20px;
+Width: 30%;
+}
+.p{
+  color: white;
+  width: 50%;
+  z-index: 2;
+  padding: 0px 20px;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+font-family: 'Roboto', sans-serif;
+
+padding: 20px;
+
+}
+
+.nav-bar {
+  position: absolute;
+    top: 0;
+    left: 0 ;
+  background-color: #0F33F3;
+  padding: 10px 0px;
+  height: 100px;
+  width: 100%;
+}
+ .logo{
+  width: 100px;
+  object-fit: cover;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  
+}
+.menu-icon{
+  object-fit: cover;
+  height: 30px;
+}
+.nav-bar-ul{
+
+  display:flex;
+    align-items: center;
+    justify-content:space-between
+}
+.nav-bar-ul li{
+  list-style-type: none;
+  text-align: center;
+}
+.mac{
+color: black;
+background-color: white;
+border-radius: 30px;
+width:30%;
+margin: 10px;
+}
+.browser{
+  width:30%;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  margin: 10px;
+}
+.discord-bck{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 600px;
+  
+}
